@@ -1,1 +1,1 @@
-# emotion-detection-project
+# Emotion Detection
