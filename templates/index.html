@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="{{ url_for('static', filename='mywebscript.js') }}"></script>
+</head>
+<body class="container">
+    <h1 class="mt-5">Emotion Detector</h1>
+    <div class="form-group">
+        <label for="textToAnalyze">Enter text for emotion detection:</label>
+        <input type="text" class="form-control" id="textToAnalyze" placeholder="Type here...">
+    </div>
+    <button class="btn btn-primary" onclick="runAddition()">Analyze Sentiment</button>
+    <div id="system_response" class="mt-4"></div>
+</body>
+</html>
